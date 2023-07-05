@@ -1,0 +1,285 @@
+.header-section {
+    background-color: #000;
+}
+
+// .header-container {
+//     min-width: 1920px;
+//     width: 1920px;
+//     margin: 0 auto;
+//     padding: 0 20px;
+// }
+
+
+// <- ================== Navbar Start =================== ->
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    padding: 20px 0;
+    position: fixed; 
+    width: 100%;       
+    z-index: 999;
+    background-color: #00000049;
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    a {
+        color: #bbbbbb;
+        font-size: 15px;
+
+
+        &:hover {
+            color: aqua;
+        }
+    }
+}
+
+form {
+    position: relative;
+
+    box-icon {
+        position: absolute;
+        bottom: 13px;
+        left: 24vh;
+        cursor: pointer;
+    }
+    
+    .search-input {
+        width: 150%;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 25px 10px;
+        background-color: rgba(255, 255, 255, 0.466);
+        text-align: start;
+        color: #fff;
+
+    }
+
+    .search-input::-webkit-input-placeholder {
+        color: #fff;
+    }
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// <- ================== Slider Start =================== ->
+
+.mySwiper {
+    width: 1920px;
+    height: 80vh;
+}
+
+.SwiperSlide_One {
+    background: rgba(0, 0, 0, 0.6) url(../../assets//img/hero-supra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+        color: #fff;
+    }
+
+    .movie-about {
+        position: absolute;
+        width: 450px;
+        color: #fff;
+        bottom: 45%;
+
+        span {
+            background-color: blue;
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+    }
+
+    p {
+        position: absolute;
+        color: #fff;
+        width: 450px;
+        bottom: 25%;
+        left: 10%;
+    }
+
+    .watch-btn {
+        position: absolute;
+        border: 1px solid slateblue;
+        border-radius: 15px;
+        padding: 9px 32px;
+        bottom: 15%;
+        left: 10%;
+        color: #fff;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}
+
+.SwiperSlide_Two {
+    background: rgba(0, 0, 0, 0.6) url(../../assets//img/hero-supra-two.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    h1 {
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+        color: #fff;
+    }
+
+    .movie-about {
+        position: absolute;
+        width: 450px;
+        color: #fff;
+        bottom: 45%;
+
+        span {
+            background-color: blue;
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+    }
+
+    p {
+        position: absolute;
+        color: #fff;
+        width: 450px;
+        bottom: 25%;
+        left: 10%;
+    }
+
+    .watch-btn {
+        position: absolute;
+        border: 1px solid slateblue;
+        border-radius: 15px;
+        padding: 9px 32px;
+        bottom: 15%;
+        left: 10%;
+        color: #fff;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}
+
+.SwiperSlide_Three {
+    background: rgba(0, 0, 0, 0.6) url(../../assets//img/hero-supra-three.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    h1 {
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+        color: #fff;
+    }
+
+    .movie-about {
+        position: absolute;
+        width: 450px;
+        color: #fff;
+        bottom: 45%;
+
+        span {
+            background-color: blue;
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+    }
+
+    p {
+        position: absolute;
+        color: #fff;
+        width: 450px;
+        bottom: 25%;
+        left: 10%;
+    }
+
+    .watch-btn {
+        position: absolute;
+        border: 1px solid slateblue;
+        border-radius: 15px;
+        padding: 9px 32px;
+        bottom: 15%;
+        left: 10%;
+        color: #fff;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}
+
+.SwiperSlide_Four {
+    background: rgba(0, 0, 0, 0.6) url(../../assets//img/hero-supra-four.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    h1 {
+        position: absolute;
+        bottom: 50%;
+        left: 10%;
+        color: #fff;
+    }
+
+    .movie-about {
+        position: absolute;
+        width: 450px;
+        color: #fff;
+        bottom: 45%;
+
+        span {
+            background-color: blue;
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+    }
+
+    p {
+        position: absolute;
+        color: #fff;
+        width: 450px;
+        bottom: 25%;
+        left: 10%;
+    }
+
+    .watch-btn {
+        position: absolute;
+        border: 1px solid slateblue;
+        border-radius: 15px;
+        padding: 9px 32px;
+        bottom: 15%;
+        left: 10%;
+        color: #fff;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}

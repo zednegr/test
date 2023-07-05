@@ -1,0 +1,122 @@
+.card-section {
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+// <- ===================== Card About =================== ->
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .c_w-more {
+        
+        .w-more {
+            a {
+                color: steelblue;
+            }
+        }
+    }
+}
+
+.card-trending {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+
+
+
+    .card_h3 {
+        font-size: 28px;
+        font-weight: 300;
+        color: #fff;
+        height: 50px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .card_btns {
+        display: flex;
+        gap: 10px;
+    }
+
+    .card_btn-one {
+        padding: 5px 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(53, 203, 203);
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .card_btn-two {
+        padding: 5px 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(46, 46, 46);
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+
+// <- ===================== Cards =================== ->
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    img {
+        width: 300px;
+        height: 450px;
+        border-radius: 15px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0, 0, 0.6);
+            opacity: 0.8;
+        }
+    }
+
+    .card-about {
+        h3 {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+    }
+
+    .c_about {
+        display: flex;
+        gap: 130px;
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            opacity: 0.8;
+        }
+
+        span {
+            color: #fff;
+            border: 1px solid white;
+            padding: 3px;
+            font-size: 10px;
+            opacity: 0.8;
+        }
+    }
+}

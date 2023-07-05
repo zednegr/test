@@ -1,0 +1,92 @@
+.hero-section {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.h_btn-one {
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px 42px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform:translateY(-15px);
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+.h_btn-two {
+    border: none;
+    background-color: rgb(61, 200, 200);
+    border-radius: 10px;
+    padding: 5px 42px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform:translateY(-15px);
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+.h_btn-three {
+    border: none;
+    background-color: rgb(140, 246, 140);
+    border-radius: 10px;
+    padding: 5px 42px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform:translateY(-15px);
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+.h_btn-four {
+    border: none;
+    background-color: rgb(0, 133, 210);
+    border-radius: 10px;
+    padding: 5px 42px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform:translateY(-15px);
+        opacity: 0.8;
+    }
+
+    p {
+        color: #fff;
+        font-size: 15px;
+    }
+}

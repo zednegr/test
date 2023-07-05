@@ -1,0 +1,74 @@
+.footer-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// <- ============ Footer One ============ ->
+
+.f-one {
+
+    img {
+        cursor: pointer;
+    }
+
+    .f_one-p {
+        width: 612px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        margin-top: 19px;
+        opacity: 0.8;
+    }
+
+    .f_one-h5 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: 67px;
+        cursor: pointer;
+        opacity: 0.8;
+
+        &:hover {
+            color: steelblue;
+            opacity: 1;
+        }
+    }
+}
+
+// <- ============ Footer Two ============ ->
+
+.f-two {
+
+    .f_two-h5 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        opacity: 0.8;
+    }
+
+    .f_two-list {
+        li {
+            cursor: pointer;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            margin-top: 25px;
+            opacity: 0.8;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
